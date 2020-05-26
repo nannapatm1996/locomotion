@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TvPermission"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Permission" />
+
+            <Button
+                android:id="@+id/BtnPermission"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Permission RQ " />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TvRoom1"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Room 1" />
+
+            <Button
+                android:id="@+id/BtnRoom1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Get Room 1 " />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TvRoom2"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Room 2" />
+
+            <Button
+                android:id="@+id/BtnRoom2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Get Room 2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/TvRoom3"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:text="Room 3" />
+
+            <Button
+                android:id="@+id/BtnRoom3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Get Room 3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:text="" />
+
+        <Button
+            android:id="@+id/btnGoTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="시작!" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
